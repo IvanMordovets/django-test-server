@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^uh-g%rqcrh(q-$7pw71zxhaa$1c))4)b3yk=g-x98t!_8z!kj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ["ivanmordovets.space","www.ivanmordovets.space","127.0.0.1"]
 CSRF_TRUSTED_ORIGINS = ["https://ivanmordovets.space","https://www.ivanmordovets.space"]
